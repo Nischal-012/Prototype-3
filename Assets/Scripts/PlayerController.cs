@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     private bool isOnGround = true;
     public float gravityModifier;
     public bool gameOver;
-    private Animator playerAnim;
+    public Animator playerAnim;
     public ParticleSystem explosionParticle;
     public ParticleSystem runningParticle;
     public AudioSource playerAudio;
